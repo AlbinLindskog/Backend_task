@@ -3,7 +3,7 @@ Backend task
 Your task is to build a reliable, fault-tolerant integration towards Bindit, a digital, financial service that takes
 your money.
 
-Your task is to implement the function ´create_account_and_task´ that creates an account and transfer to Bindit,
+Your task is to implement the function ´create_account_and_transfer´ that creates an account and transfer to Bindit,
 stores the information in the db through the models ´Account´ and ´Transfer´, and most importantly; gracefully handles
 any errors and problems that could occur.
 
