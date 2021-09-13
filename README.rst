@@ -5,7 +5,7 @@ your money.
 
 Your task is to implement the function ´create_account_and_transfer´ that creates an account and transfer to Bindit,
 stores the information in the db through the models ´Account´ and ´Transfer´, and most importantly; gracefully handles
-any errors and problems that could occur.
+any errors and maintains data integrity.
 
 To your help you have a python client that communicates with Bindit's API over HTTPS, ´BinditClient´. Note that you do
 not need to implement BinditClient, it is a stub, intended to be mocked in tests. Likewise are the actual tests stubs,
